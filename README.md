@@ -1,28 +1,12 @@
-== README
+#Jimicooksbooks
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##About the app
+Jimicooksbooks is an application to track debits and credits by transactions and keep a running balance on all user accounts.
 
-Things you may want to cover:
+##How to use Jimicooksbooks
+To view the sample data:
+Log in by navigating to [Jimicooksbooks](https://Jimicooksbooks.herokuapp.com) and entering `jimi@example.com` for email and `password` for password.
 
-* Ruby version
+A create an account
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+[UML diagrams](/docs/Jimicooksbooks.pdf)

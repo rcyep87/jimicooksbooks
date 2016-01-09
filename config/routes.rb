@@ -3,6 +3,20 @@ Rails.application.routes.draw do
   resources :transactions
   resources :payees
   resources :accounts
+
+  resources :users do
+    resources :accounts do
+      resources :transactions
+    end
+  end
+
+  resources :users do
+    resources :payees do
+      resources :transactions
+    end
+  end
+
+  s
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
