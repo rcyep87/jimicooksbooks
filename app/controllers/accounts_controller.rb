@@ -1,6 +1,9 @@
 class AccountsController < ApplicationController
   before_action :set_account, only: [:show, :edit, :update, :destroy]
 
+  def home
+
+  end
   # GET /accounts
   # GET /accounts.json
   def index
