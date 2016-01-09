@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2016-01-09
+  credit: 1.5
+  debit: 1.5
+  account_id: 
+  payee_id: 
+
+two:
+  date: 2016-01-09
+  credit: 1.5
+  debit: 1.5
+  account_id: 
+  payee_id: 
