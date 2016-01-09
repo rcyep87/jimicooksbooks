@@ -1,3 +1,4 @@
 class Payee < ActiveRecord::Base
-  belongs_to :account
+  belongs_to :user
+  has_many :transactions
 end
