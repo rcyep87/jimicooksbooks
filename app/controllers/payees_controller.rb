@@ -4,7 +4,8 @@ class PayeesController < ApplicationController
   # GET /payees
   # GET /payees.json
   def index
-    @payees = Payee.all
+    @payees = current_user.payees
+    render json: @payees
   end
 
   # GET /payees/1
