@@ -26,6 +26,13 @@ account = Account.create({
   user_id:      1
   })
 
+account = Account.create({
+  acct_type:         "checking",
+  balance:      125.98,
+  acct_number:  12987499,
+  user_id:      2
+  })
+
 
 payee = Payee.create({
   name:     "Citibank",
@@ -34,11 +41,11 @@ payee = Payee.create({
 
 payee = Payee.create({
   name:     "Bank of America",
-  user_id:  1
+  user_id:  2
   })
 
 transaction = Transaction.create({
-  date:       Date.now,
+  date:       Time.now,
   credit:     0,
   debit:      90,
   user_id:    1,
@@ -48,7 +55,7 @@ transaction = Transaction.create({
 
 
 transaction = Transaction.create({
-  date:       Date.now,
+  date:       Time.now,
   credit:     12,
   debit:      0,
   user_id:    1,
