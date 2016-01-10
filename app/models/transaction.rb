@@ -8,7 +8,7 @@ class Transaction < ActiveRecord::Base
   # validates :debit, :numericality => { :less_than_or_equal_to => 0 }
   validates :credit, :numericality => { :greater_than_or_equal_to => 0 }
 
-  #validate that there is either a debit or credit, for each instance, not both, for now default both to zero
+  #validate that there is either a debit or credit, for each instance, not both
 
   def negate_debit_entry
     self.debit = -(self.debit)
